@@ -4,7 +4,7 @@ LABEL maintainer="github.com/asecuritypreneur"
 
 RUN rm -rf /usr/local/tomcat/webapps/ROOT/*
 
-COPY webapps/ /usr/local/tomcat/webapps/ROOT/
+COPY webapp/ /usr/local/tomcat/webapps/ROOT/
 
 RUN ln -sf /bin/bash /bin/sh
 
